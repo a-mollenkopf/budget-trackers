@@ -1,11 +1,12 @@
-// Uncomment the lines below
 const FILES_TO_CACHE = [
     "/",
     "/index.html",
+    "/service-worker.js",
     "/manifest.webmanifest",
-    "/assets/index.js",
-    "/assets/images/icons/icon-192x192.png",
-    "/assets/images/icons/icon-512x512.png",
+    "/index.js",
+    "/icons/icon-192x192.png",
+    "/icons/icon-512x512.png",
+    "/styles.css",
   ];
 
 const CACHE_NAME = "static-cache-v2";
